@@ -1,9 +1,11 @@
-import React from 'react'
+import TodoReact from "./TodoReact";
 
 const App = () => {
-  return (
-    <div>App</div>
+  return ( 
+    <>
+    <TodoReact/>
+    </>
   )
 }
 
-export default App
+export default App 
